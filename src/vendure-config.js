@@ -62,10 +62,10 @@ const config = {
             templatePath: path.join(__dirname, '../static/email/templates'),
             globalTemplateVars: {
                 // The following variables will change depending on your storefront implementation
-                fromAddress: '"example" <noreply@example.com>',
-                verifyEmailAddressUrl: 'http://localhost:8080/verify',
-                passwordResetUrl: 'http://localhost:8080/password-reset',
-                changeEmailAddressUrl: 'http://localhost:8080/verify-email-address-change'
+                fromAddress: '"example" <astonishmm@gmail.com>',
+                verifyEmailAddressUrl: 'http://ec2-54-211-77-238.compute-1.amazonaws.com:8080/verify',
+                passwordResetUrl: 'http://ec2-54-211-77-238.compute-1.amazonaws.com:8080/password-reset',
+                changeEmailAddressUrl: 'http://ec2-54-211-77-238.compute-1.amazonaws.com:8080/verify-email-address-change'
             },
         }),
         AdminUiPlugin.init({
