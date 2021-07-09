@@ -5,6 +5,7 @@
   "scripts": {
     "run:server": "node ./src/index.js",
     "run:worker": "node ./src/index-worker.js",
+    "dev": "concurrently \"yarn run server\" \"yarn run client\"",
     "start": "concurrently yarn:run:*",
     "migration:generate": "node migration generate",
     "migration:run": "node migration run",
