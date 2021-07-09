@@ -36,11 +36,11 @@ const config = {
         type: 'postgres',
         synchronize: true, // turn this off for production
         logging: false,
-        database: 'astonish',
-        host: 'localhost',
+        database: 'd81a15du8jfea7',
+        host: 'ec2-54-211-77-238.compute-1.amazonaws.com',
         port: 5432,
-        username: 'postgres',
-        password: '078106',
+        username: 'sctgmzbmwfbjtq',
+        password: '6b7056ea4c5bfceb6b94d4cf9ef17b621c1f6f95ed5fa318346686f10dfd6e8a',
         migrations: [path.join(__dirname, '../migrations/*.ts')],
     },
     paymentOptions: {
